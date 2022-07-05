@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+    
+    }
+    
+    .banner{
+
+        height: 100vh;
+        width: 100%;
+        background-image: url(white.jpg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        }
+    
+    
+    .navbar{
+    display: flex;
+    width: 90%;
+    margin:auto;
+    padding: 32px 0;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    
+    .logomaruf{
+        margin-left: -4%;
+        padding: 0;
+        cursor:pointer;
+        border-radius: 50%; 
+        margin-top: -3%;
+        opacity: 0.9;
+     }
+    
+    
+    .navbar ul li{
+    
+        list-style-type: none;
+        display:inline-block;
+        margin: 0 20px;
+        
+    }
+    
+    .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    }
+    
+    .navbar ul li a:hover{
+    
+        box-shadow: 0px 1px black;
+        font-size:xx-large;
+        transition: 1s;
+    }
+    
+    .ortayazı{
+        color:whitesmoke;
+        position:absolute;
+        width: 100%;
+        top:64%;
+        text-align:center;
+        opacity: 0.9;
+        cursor:context-menu;
+        font-family: 'Teko', sans-serif;
+    
+     }
+    .ortayazı ul li{
+        display:inline-block;
+        font-size: 25px;
+    }
+     .kare{
+    
+        border-style:groove;
+        color: bisque;
+        justify-content: center;
+        margin-top: -15.5%;
+        order: 1;
+        padding: 90px;
+        
+     }
+    
+     
+    
+    .bas{
+    color: white;
+    width:100%;
+    text-align:center;
+    margin-top: 35px;
+    font-size: xx-large;
+    opacity:1;
+    font-family: 'Teko', sans-serif;
+    }
+    .bas:hover{
+    
+        color: greenyellow;
+        transition:1s;
+        cursor: default;
+    }
+    
+    button{
+    width: 120px;
+    padding:11px 0;
+    margin:15px;
+    border-radius: 30px;
+    color:white;
+    background-color:darkslategrey;
+    font-weight: 400px;
+    font-size: 15px;
+    text-decoration: none;
+
+    
+    }
+    button:hover{
+        color:white;
+        transition: 1s;
+        cursor:pointer;
+        font-size:large;
+        text-decoration:solid;
+    }
+    
+    .ortayazı:hover{
+    
+        font-size: x-large;
+        color: greenyellow;
+        font-family: 'Teko', sans-serif;
+        transition: 1s;
+    }
+    
+    .isim{
+        position:absolute;
+        text-align: center;
+        top: 4%;
+        margin-bottom: -50px;
+        margin-left: 12%;
+        font-size: 1.9em;
+    }
+    
+    .isim:hover{ 
+        color:black;
+        font-size: 2.3em;
+        font-family: 'Teko', sans-serif;
+        transition: 1s;
+    } 
+
+    .sensör{
+
+        border-style:solid;
+        position: absolute;
+        border-width: -1px;
+        height: 50%;
+        width: 48%;
+        color: white;
+        margin: -100px;
+        padding: 20px;
+        margin-top: 10%;
+        border-top: 80%;
+        border-radius: 50px;
+        text-align: center;
+    }
+
+    .sensör:hover{
+        color:white;
+        background-color: black;
+        transition: 3s;
+        transform-style:flat;
+    }
+
+    .btn1{
+        color: aqua;
+        background-color: black;
+        display:block;
+        cursor:pointer;
+        margin-left: 125%;
+        margin-block: -150px;
+        margin-top: -40px;
+        
+        
+    }
+
+    .icon{
+    margin-left: 147%;
+    margin-top: 90px;
+    }
+
+    @media (max-width:600px){
+     body{
+        background:none
+     }
+      .kare{
+        margin-top: -53%;
+        width: 100%;
+      }
+
+      .isim{
+        font-size: smaller;
+      }
+      .isim:hover{
+        font-size: medium;
+      }
+       .navbar ul li a{
+        font-size: 15px;
+        margin-left: 1px;
+         
+       }
+     
+
+       .sensör{
+        border-style: solid;
+        margin-top: 120px;
+        width: 200px;
+        height: 290px;   
+        color: white;
+    }
+.sensör:hover{
+    transition: none;
+    color: white;
+    background-color: black;
+}
+    .icon{
+        border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-left: 127%;
+    max-height: fit-content;    
+    }
+    .btn1{
+  margin-left: 210px;
+  width: 50px;
+  height:50px;
+  font-size: 10px;
+  border-radius: none;
+  margin-top: -75px;
+    }
+    .btn1:hover{
+
+    font-size: small;
+    }
+    }
